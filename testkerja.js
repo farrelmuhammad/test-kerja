@@ -1,8 +1,7 @@
-function range(start, end) {
-	var len = end - start + 1;
-	var a = new Array(len);
-	for (let i = 0; i < len; i++) a[i] = start + i;
-	return a;
+const arr = [1, 3, 5, 7, 9]
+
+function gapCheck (arr) {
+  return arr[1] - arr[0]
 }
 
-console.log(range(1,11));
+console.log(gapCheck(arr))
